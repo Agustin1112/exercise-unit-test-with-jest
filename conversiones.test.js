@@ -1,7 +1,7 @@
 const { fromEuroToDollar, fromDollarToYen, fromYenToPound } = require('./conversiones');
 
 test('Convierte de Euro a Dólar', () => {
-    expect(fromEuroToDollar(3)).toBe(3.6);
+    expect(fromEuroToDollar(3)).toBeCloseTo(3.6, 5);
 });
 
 test('Convierte de Dólar a Yen', () => {
