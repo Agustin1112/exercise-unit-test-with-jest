@@ -14,9 +14,10 @@ function fromDollarToYen(dollarAmount) {
 }
 
 // Convierto de Yen a Libra Esterlina
-function fromYanToPound(yenAmount) {
+function fromYenToPound(yenAmount) { // Cambiado a fromYenToPound
     return yenAmount * yenToPoundRate;
 }
 
 // Exporto las funciones
-module.exports = { fromEuroToDollar, fromDollarToYen, fromYanToPound };
+module.exports = { fromEuroToDollar, fromDollarToYen, fromYenToPound }; // Cambiado aquí también
+
